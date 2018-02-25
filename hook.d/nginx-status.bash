@@ -20,5 +20,3 @@ if [[ ${_R} -eq 0 ]]; then
 else
   writeActionResult 'STOPPED' 'exit: %d' ${_R}
 fi
-
-echo 'start:' >> /tmp/cbc.actions

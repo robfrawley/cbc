@@ -15,7 +15,7 @@ SYSTEMCTL_BIN="$(which systemctl)"
 SYSTEMCTL_OPT="--no-ask-password --no-pager --full --output=cat"
 CERTBOT_BIN="$(which certbot)"
 CERTBOT_OPT="--verbose --debug --non-interactive --staple-ocsp --keep-until-expiring"
-CBC_LOG_FILE="/tmp/cbc.log"
+CBC_LOG_FILE="/tmp/cbc.date +%s.log"
 
 #
 # certbot renewal configuration options

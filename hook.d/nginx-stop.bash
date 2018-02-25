@@ -20,5 +20,3 @@ if [[ ${_R} -eq 0 ]]; then
 else
   writeActionResultFail 'exit: %d, pids active: %s' ${_R} "$(pidof nginx)"
 fi
-
-echo 'start:' >> /tmp/cbc.actions
